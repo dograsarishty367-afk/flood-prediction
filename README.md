@@ -60,15 +60,6 @@ This project includes:
 ---
 
 
-## Project Structure
-flood_prediction_project
-│
-├── flood_prediction.py
-├── flood.csv
-└── README.md
-
----
-
 ## How to Run
 
 Clone the repository
@@ -85,7 +76,25 @@ python3 flood_prediction.py
 
 ---
 
+## Project Workflow
+
+1. Load the flood dataset using Pandas
+2. Explore dataset structure and statistics
+3. Check missing values and clean data
+4. Perform Exploratory Data Analysis (EDA)
+5. Visualize flood probability distribution
+6. Generate correlation heatmap for features
+7. Prepare training and testing datasets
+8. Train Random Forest Regressor model
+9. Evaluate model using MSE and R² score
+10. Analyze feature importance
+11. Compare actual vs predicted flood probability
+12. Predict flood probability for new input data
+
+---
+
 ## Future Improvements
+
 - Use real rainfall and river level data
 - Integrate real-time weather APIs
 

@@ -55,8 +55,8 @@ sns.histplot(df["FloodProbability"], bins=30, kde=True)
 plt.title("Flood Probability Distribution")
 plt.xlabel("Flood Probability")
 plt.ylabel("Count")
-plt.show()
-
+plt.savefig("flood_distribution.png")
+plt.close()
 
 # -----------------------------
 # Visualization 2
@@ -66,8 +66,8 @@ plt.show()
 plt.figure(figsize=(14,10))
 sns.heatmap(df.corr(), cmap="coolwarm")
 plt.title("Feature Correlation Heatmap")
-plt.show()
-
+plt.savefig("correlation_heatmap.png")
+plt.close()
 
 # -----------------------------
 # Prepare Data for ML
@@ -133,8 +133,8 @@ plt.scatter(y_test, predictions)
 plt.xlabel("Actual Flood Probability")
 plt.ylabel("Predicted Flood Probability")
 plt.title("Actual vs Predicted Flood Probability")
-plt.show()
-
+plt.savefig("actual_vs_predicted.png")
+plt.close()
 
 # -----------------------------
 # Feature Importance
@@ -168,8 +168,8 @@ sns.barplot(
 )
 
 plt.title("Feature Importance for Flood Prediction")
-plt.show()
-
+plt.savefig("feature_importance.png")
+plt.close()
 
 # -----------------------------
 # Example Prediction

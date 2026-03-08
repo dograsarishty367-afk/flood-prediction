@@ -34,12 +34,31 @@ Mean Squared Error: very low
 
 ## Visualizations
 This project includes:
-- Flood probability distribution
-- Correlation heatmap
-- Actual vs predicted plot
-- Feature importance graph
+
+## Flood Probability Distribution
+
+![Flood Distribution](flood_distribution.png)
 
 ---
+
+## Feature Correlation Heatmap
+
+![Correlation Heatmap](correlation_heatmap.png)
+
+---
+
+## Actual vs Predicted Flood Probability
+
+![Actual vs Predicted](actual_vs_predicted.png)
+
+---
+
+## Feature Importance
+
+![Feature Importance](feature_importance.png)
+
+---
+
 
 ## Project Structure
 flood_prediction_project

@@ -2,8 +2,7 @@
 
 ## Project Overview
 This project predicts the probability of flooding using environmental and geographical factors such as rainfall intensity, river management, deforestation, drainage systems, and urbanization.
-
-The model is trained using a Random Forest Regressor to estimate flood probability based on multiple environmental indicators.
+This is a beginner machine learning project that predicts flood probability using environmental data.
 
 ---
 
@@ -27,16 +26,6 @@ FloodProbability
 
 ---
 
-## Machine Learning Model
-Random Forest Regressor
-
-Why this model:
-- Handles complex relationships
-- Works well with tabular data
-- Reduces overfitting
-
----
-
 ## Model Performance
 R² Score ≈ 0.73  
 Mean Squared Error: very low
@@ -56,7 +45,6 @@ This project includes:
 flood_prediction_project
 │
 ├── flood_prediction.py
-├── flood_prediction.ipynb
 ├── flood.csv
 └── README.md
 
@@ -80,8 +68,6 @@ python3 flood_prediction.py
 
 ## Future Improvements
 - Use real rainfall and river level data
-- Try additional ML models
-- Build a web interface
 - Integrate real-time weather APIs
 
 ---
